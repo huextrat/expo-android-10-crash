@@ -7,16 +7,18 @@
     "icon": "./assets/images/icon.png",
     "scheme": "android10crash",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hugoextrat.android10crash"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.hugoextrat.android10crash"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +39,16 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "72651f60-32aa-48c0-bfff-9a56ccbde36d"
+      }
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/72651f60-32aa-48c0-bfff-9a56ccbde36d"
     }
   }
 }
